@@ -1,4 +1,4 @@
-# Ultralytics YOLO 🚀, AGPL-3.0 license
+ yolo detect train data=datasets/Apple/apple.yaml model=yolov8n.yaml pretrained=ultralytics/yolov8n.pt epochs=100 batch=4 lr0=0.01 resume=True# Ultralytics YOLO 🚀, AGPL-3.0 license
 # COCO8 dataset (first 8 images from COCO train2017) by Ultralytics
 # Documentation: https://docs.ultralytics.com/datasets/detect/coco8/
 # Example usage: yolo train data=coco8.yaml
